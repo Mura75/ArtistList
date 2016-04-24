@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/nsvPerson"
+    android:layout_marginTop="@dimen/activity_horizontal_margin"
+    android:padding="@dimen/activity_horizontal_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_artist">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tvArtistName"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tvArtistGenres"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tvArtistAlbums"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tvArtistTracks"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tvArtistLink"
+            android:linksClickable="true"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/tvArtistDescription"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:textColor="@color/abc_input_method_navigation_guard" />
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
